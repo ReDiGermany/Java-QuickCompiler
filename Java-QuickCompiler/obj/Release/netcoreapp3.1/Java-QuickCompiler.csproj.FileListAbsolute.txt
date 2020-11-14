@@ -1,0 +1,11 @@
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\obj\Release\netcoreapp3.1\Java-QuickCompiler.csprojAssemblyReference.cache
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\obj\Release\netcoreapp3.1\Java-QuickCompiler.AssemblyInfoInputs.cache
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\obj\Release\netcoreapp3.1\Java-QuickCompiler.AssemblyInfo.cs
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.exe
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.deps.json
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.runtimeconfig.json
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.runtimeconfig.dev.json
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.dll
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\bin\Release\netcoreapp3.1\J.pdb
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\obj\Release\netcoreapp3.1\J.dll
+C:\Users\suppo\source\repos\Java-QuickCompiler\Java-QuickCompiler\obj\Release\netcoreapp3.1\J.pdb
