@@ -15,6 +15,11 @@ j Calculator
 ## V1.0 - Basic functions
 [Download](https://github.com/ReDiGermany/Java-QuickCompiler/raw/main/Java-QuickCompiler/bin/Release/netcoreapp3.1/Java-Quickcompiler.zip)
 
+## V1.1 - File Watcher
+[Download](https://github.com/ReDiGermany/Java-QuickCompiler/raw/main/Java-QuickCompiler/bin/Release/netcoreapp3.1/Java-Quickcompiler 1.1.zip)
+
+Use `-w` to activate. Use `-w {sec}` to change the interval.
+
 ## Planned:
 
 * File watcher

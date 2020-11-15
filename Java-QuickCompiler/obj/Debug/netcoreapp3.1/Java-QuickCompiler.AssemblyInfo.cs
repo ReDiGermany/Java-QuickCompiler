@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Java-QuickCompiler")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("J")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Java-QuickCompiler")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Java-QuickCompiler")]
+[assembly: System.Reflection.AssemblyProductAttribute("J")]
+[assembly: System.Reflection.AssemblyTitleAttribute("J")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
