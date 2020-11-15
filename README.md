@@ -21,5 +21,4 @@ j Calculator
 Use `-w` to activate. Use `-w {sec}` to change the interval.
 
 ## Planned:
-
-* File watcher
+__nothing so far__
