@@ -48,7 +48,7 @@ namespace J
         }
         static String getFileName(string[] args)
         {
-            return args[args.Length-1].Split('.')[0];
+            return args[args.Length - 1].Split('.')[0];
         }
         public static void compile(string file)
         {
@@ -71,7 +71,7 @@ namespace J
                 new Program(args);
             }
         }
-        static void run(string name,string args)
+        static void run(string name, string args)
         {
             Process process = new Process();
             // Configure the process using the StartInfo properties.
