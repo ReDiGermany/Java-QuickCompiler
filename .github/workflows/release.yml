@@ -1,12 +1,14 @@
 name: Release
-on: [push]
+on: [ push ]
 jobs:
   release-new-version:
-      runs-on: windows-latest
-      steps:
-        - uses: actions/checkout@v2
-        - uses: actions/setup-dotnet@v1
-          with:
-            dotnet-version: '3.1.100'
-        - name: Build the package
-          run: dotnet build
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.100'
+      - name: Build the package
+        run: dotnet build
+      - name: Publish the package
+        run: dotnet publish
