@@ -1,5 +1,8 @@
 name: Release
-on: [ push ]
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   release-new-version:
     runs-on: windows-latest
@@ -12,3 +15,28 @@ jobs:
         run: dotnet build
       - name: Publish the package
         run: dotnet publish
+      - uses: papeloto/action-zip@v1
+        with:
+          files: Java-QuickCompiler/bin/Debug/netcoreapp3.1/publish/
+          recursive: false
+          dest: J.zip
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          path: ${{ github.workspace }}/J.zip
+          asset_name: J.zip
+          asset_content_type: application/zip
